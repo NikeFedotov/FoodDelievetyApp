@@ -2,12 +2,12 @@
 //  ViewController.swift
 //  FoodDeliveryApp
 //
-//  Created by Никита on 10.04.2024.
+//  Created by Nikita Fedotov on 10.04.2024.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
