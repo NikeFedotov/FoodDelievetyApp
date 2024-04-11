@@ -1,5 +1,5 @@
 //
-//  OnboardingCoordinator.swift
+//  HomeCoordinator.swift
 //  FoodDeliveryApp
 //
 //  Created by Nikita Fedotov on 11.04.2024.
@@ -7,10 +7,11 @@
 
 import UIKit
 
-final class OnboardingCoordinator: Coordinator {
+final class HomeCoordinator: Coordinator {
     
     override func start() {
         let vc = ViewController()
+        vc.view.backgroundColor = .red
         navigationController?.pushViewController(vc, animated: false)
     }
     
